@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		879B19102634257C0072B80A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B190F2634257C0072B80A /* AppDelegate.swift */; };
-		879B19122634257C0072B80A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B19112634257C0072B80A /* SceneDelegate.swift */; };
-		879B19142634257C0072B80A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B19132634257C0072B80A /* ViewController.swift */; };
-		879B19172634257C0072B80A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879B19152634257C0072B80A /* Main.storyboard */; };
-		879B191A2634257C0072B80A /* AnalogClock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 879B19182634257C0072B80A /* AnalogClock.xcdatamodeld */; };
+		879B19142634257C0072B80A /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B19132634257C0072B80A /* ClockViewController.swift */; };
 		879B191C2634257E0072B80A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879B191B2634257E0072B80A /* Assets.xcassets */; };
 		879B191F2634257E0072B80A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879B191D2634257E0072B80A /* LaunchScreen.storyboard */; };
+		879B192C263427A80072B80A /* AnalogClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B192B263427A80072B80A /* AnalogClockView.swift */; };
+		879B192F26342AC70072B80A /* DigitalClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B192E26342AC70072B80A /* DigitalClockView.swift */; };
+		879B1983263EC8770072B80A /* DigitalClockDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B1982263EC8770072B80A /* DigitalClockDotView.swift */; };
+		879B1987263EC8BF0072B80A /* DigitalClockUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B1986263EC8BF0072B80A /* DigitalClockUnitView.swift */; };
+		879B198A263EC8ED0072B80A /* DigitalClockComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B1989263EC8ED0072B80A /* DigitalClockComponent.swift */; };
+		879B198F263EC9610072B80A /* TickHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B198E263EC9610072B80A /* TickHand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		879B190C2634257C0072B80A /* AnalogClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalogClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		879B190F2634257C0072B80A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		879B19112634257C0072B80A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		879B19132634257C0072B80A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		879B19162634257C0072B80A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		879B19192634257C0072B80A /* AnalogClock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnalogClock.xcdatamodel; sourceTree = "<group>"; };
+		879B19132634257C0072B80A /* ClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
 		879B191B2634257E0072B80A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		879B191E2634257E0072B80A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		879B19202634257E0072B80A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879B192B263427A80072B80A /* AnalogClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClockView.swift; sourceTree = "<group>"; };
+		879B192E26342AC70072B80A /* DigitalClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClockView.swift; sourceTree = "<group>"; };
+		879B1982263EC8770072B80A /* DigitalClockDotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClockDotView.swift; sourceTree = "<group>"; };
+		879B1986263EC8BF0072B80A /* DigitalClockUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClockUnitView.swift; sourceTree = "<group>"; };
+		879B1989263EC8ED0072B80A /* DigitalClockComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClockComponent.swift; sourceTree = "<group>"; };
+		879B198E263EC9610072B80A /* TickHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickHand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +64,33 @@
 		879B190E2634257C0072B80A /* AnalogClock */ = {
 			isa = PBXGroup;
 			children = (
+				879B198D263EC9540072B80A /* AnalogClock */,
+				879B1981263EC8570072B80A /* DigitalClock */,
 				879B190F2634257C0072B80A /* AppDelegate.swift */,
-				879B19112634257C0072B80A /* SceneDelegate.swift */,
-				879B19132634257C0072B80A /* ViewController.swift */,
-				879B19152634257C0072B80A /* Main.storyboard */,
+				879B19132634257C0072B80A /* ClockViewController.swift */,
 				879B191B2634257E0072B80A /* Assets.xcassets */,
 				879B191D2634257E0072B80A /* LaunchScreen.storyboard */,
 				879B19202634257E0072B80A /* Info.plist */,
-				879B19182634257C0072B80A /* AnalogClock.xcdatamodeld */,
+			);
+			path = AnalogClock;
+			sourceTree = "<group>";
+		};
+		879B1981263EC8570072B80A /* DigitalClock */ = {
+			isa = PBXGroup;
+			children = (
+				879B192E26342AC70072B80A /* DigitalClockView.swift */,
+				879B1982263EC8770072B80A /* DigitalClockDotView.swift */,
+				879B1986263EC8BF0072B80A /* DigitalClockUnitView.swift */,
+				879B1989263EC8ED0072B80A /* DigitalClockComponent.swift */,
+			);
+			path = DigitalClock;
+			sourceTree = "<group>";
+		};
+		879B198D263EC9540072B80A /* AnalogClock */ = {
+			isa = PBXGroup;
+			children = (
+				879B192B263427A80072B80A /* AnalogClockView.swift */,
+				879B198E263EC9610072B80A /* TickHand.swift */,
 			);
 			path = AnalogClock;
 			sourceTree = "<group>";
@@ -129,7 +154,6 @@
 			files = (
 				879B191F2634257E0072B80A /* LaunchScreen.storyboard in Resources */,
 				879B191C2634257E0072B80A /* Assets.xcassets in Resources */,
-				879B19172634257C0072B80A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,24 +164,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879B19142634257C0072B80A /* ViewController.swift in Sources */,
+				879B192C263427A80072B80A /* AnalogClockView.swift in Sources */,
+				879B19142634257C0072B80A /* ClockViewController.swift in Sources */,
+				879B1983263EC8770072B80A /* DigitalClockDotView.swift in Sources */,
+				879B198A263EC8ED0072B80A /* DigitalClockComponent.swift in Sources */,
+				879B192F26342AC70072B80A /* DigitalClockView.swift in Sources */,
+				879B1987263EC8BF0072B80A /* DigitalClockUnitView.swift in Sources */,
 				879B19102634257C0072B80A /* AppDelegate.swift in Sources */,
-				879B191A2634257C0072B80A /* AnalogClock.xcdatamodeld in Sources */,
-				879B19122634257C0072B80A /* SceneDelegate.swift in Sources */,
+				879B198F263EC9610072B80A /* TickHand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		879B19152634257C0072B80A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				879B19162634257C0072B80A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		879B191D2634257E0072B80A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +317,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Jiwon.AnalogClock;
+				PRODUCT_BUNDLE_IDENTIFIER = Jiwon.ClockSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,7 +336,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Jiwon.AnalogClock;
+				PRODUCT_BUNDLE_IDENTIFIER = Jiwon.ClockSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -345,19 +365,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		879B19182634257C0072B80A /* AnalogClock.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				879B19192634257C0072B80A /* AnalogClock.xcdatamodel */,
-			);
-			currentVersion = 879B19192634257C0072B80A /* AnalogClock.xcdatamodel */;
-			path = AnalogClock.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 879B19042634257C0072B80A /* Project object */;
 }
